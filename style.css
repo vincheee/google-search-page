@@ -1,0 +1,94 @@
+html, body {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    height: 100%;
+    min-width: 900px;
+}
+
+header {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+header ul {
+    margin: 20px 36px;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+header li {
+    display: inline-block;
+    padding: 7px;
+}
+  
+li:hover {
+    color: #5f6369;
+    text-decoration: underline;
+}
+
+.googleimg {
+    height: 31px;
+    margin: 30px;
+    margin-right: 10px;
+    width: 90px;
+}
+
+.searchbar {
+    background-image: url(googlemic.png);
+    background-position: 97% 11px;
+    background-repeat: no-repeat;
+    background-size: 19px;
+    border: 1px solid #dfe1e4;
+    border-radius: 30px;
+    font-size: 16px;
+    height: 40px;
+    margin: 20px;
+    outline: none;
+    padding-left: 20px;
+    padding-right: 58px;
+    transition: box-shadow;
+    width: 510px;
+  }
+  
+  .searchbar:hover, .searchbar:focus {
+    box-shadow: 0px 1px 3px 1px #dfe1e4;
+  }
+
+  .loginbtn {
+    background-color: #4584f2;
+    border: 1px solid #4584f2;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    padding: 7px 1px;
+  }
+  
+  .loginbtn:hover, .loginbtn a:link {
+    color: white;
+    cursor: default;
+    text-decoration: none;
+  }
+  
+  .loginbtn a {
+    color: white;
+    padding: 7px 11px;
+  }
+  
+  .loginbtn a:active {
+    background-color: #2c62ba;
+  }
+  
+  .googleappbtn {
+    height: 22px;
+    opacity: 0.6;
+    padding-right: 7px;
+    vertical-align: middle;
+    width: 22px;
+  }
+  
+  .googleappbtn:hover {
+    opacity: 1.0;
+  }
+  
