@@ -1,0 +1,1 @@
+This is the difficult version of the PROJECT:HTML/CSS of The Odin Project. I am building a clone of a Google Search Results Page.
