@@ -38,10 +38,10 @@ li:hover {
 }
 
 .searchbar {
-  background-image: url(googlemic.png);
-  background-position: 97% 11px;
+  background-image: url(micmag.png);
+  background-position: 97% 8px;
   background-repeat: no-repeat;
-  background-size: 19px;
+  background-size: 70px;
   border: 1px solid #dfe1e4;
   border-radius: 30px;
   font-size: 16px;
@@ -60,7 +60,7 @@ li:hover {
 
 .loginbtn {
   background-color: #4584f2;
-  border: 1px solid #4584f2;
+  border: 1px solid;
   border-radius: 2px;
   color: white;
   font-weight: bold;
@@ -141,7 +141,7 @@ hr {
   border-radius: 10px;
   font-size: 18px;
   line-height: 1.3;
-  margin-left: 140px;
+  margin-left: 135px;
   margin-bottom: 3px;
   overflow: hidden;
   padding: 15px;
@@ -162,7 +162,12 @@ hr {
   cursor: pointer;
   display: inline;
   font-size: 12px;
-  margin-left: 50px;
+  margin-left: 20px;
+}
+
+.abticons {
+  padding: 0px 6px 5px 0px;
+  vertical-align: middle;
 }
 
 .seconda {
@@ -188,4 +193,115 @@ hr {
 .results a {
   line-height: 1.3;
   text-decoration: none;
+}
+
+.srcrelated {
+  color: #1A0DAB;
+  font-size: 14px;
+  line-height: 1.4;
+  margin: 5px;
+  margin-left: 140px;
+  overflow: hidden;
+  padding: 10px;
+  width: 570px;
+}
+
+.srcrelated li {
+  display: block;
+  line-height: 2;
+}
+
+.srcrelated a {
+  text-decoration: none;
+}
+
+.srcrelated:hover {
+  text-decoration: underline;
+}
+
+.lcol {
+  float: left;
+  padding: 0px 0px 5px 0px;
+}
+
+.rcol {
+  float: right;
+}
+
+.googlebot {
+  margin: 40px 40px 40px 300px;
+}
+
+.googlenumbers {
+  margin-left: 30px;
+}
+
+.tdspace {
+  padding: 3px 0px 20px 13px;
+}
+
+.nextspace {
+  padding-left: 70px;
+}
+
+.gle {
+  vertical-align: middle;
+}
+
+tr a {
+  color: #4285f4;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+tr a:hover {
+  text-decoration: underline;
+}
+
+.botactive {
+  color: black;
+  font-size: 13px;
+  padding: 7px 0px 20px 13px;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #f2f2f2;
+  border: 1px solid #e4e4e4;
+  color: #6f6f6f;
+  position: absolute;
+  min-width: 980px;
+  width: 100%;
+}
+
+footer p {
+  font-size: 15px;
+  margin-left: 140px;
+  padding: 8px 0px 8px 0px;
+}
+
+footer ul {
+  margin-left: 113px;
+}
+
+footer li {
+  display: inline;
+  font-size: 13px;
+  line-height: 35px;
+}
+
+footer a {
+  color: inherit;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.leftfooter {
+  color: #5f6369;
+  font-size: 13px;
+  float: left;
+  padding: 0px 0px 3px 27px;
 }
